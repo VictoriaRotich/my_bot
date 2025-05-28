@@ -1,0 +1,61 @@
+[0.040s] Invoking command in '/home/victoria_rotich/dev_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/victoria_rotich/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/victoria_rotich/dev_ws/src/my_bot/install/my_bot
+[1.102s] -- The C compiler identification is GNU 11.4.0
+[2.048s] -- The CXX compiler identification is GNU 11.4.0
+[2.304s] -- Detecting C compiler ABI info
+[2.484s] -- Detecting C compiler ABI info - done
+[2.490s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.491s] -- Detecting C compile features
+[2.499s] -- Detecting C compile features - done
+[2.508s] -- Detecting CXX compiler ABI info
+[2.648s] -- Detecting CXX compiler ABI info - done
+[2.656s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.656s] -- Detecting CXX compile features
+[2.657s] -- Detecting CXX compile features - done
+[2.762s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.055s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.208s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.402s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.619s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.856s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.856s] -- Configured cppcheck include dirs: 
+[3.856s] -- Configured cppcheck exclude dirs and/or files: 
+[3.867s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.867s] -- Configured cpplint exclude dirs and/or files: 
+[3.870s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.873s] -- Added test 'lint_cmake' to check CMake code style
+[3.875s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.883s] -- Added test 'uncrustify' to check C / C++ code style
+[3.883s] -- Configured uncrustify additional arguments: 
+[3.885s] -- Added test 'xmllint' to check XML markup files
+[3.889s] -- Configuring done
+[3.893s] -- Generating done
+[3.895s] -- Build files have been written to: /home/victoria_rotich/dev_ws/src/my_bot/build/my_bot
+[3.900s] Invoked command in '/home/victoria_rotich/dev_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/victoria_rotich/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/victoria_rotich/dev_ws/src/my_bot/install/my_bot
+[3.901s] Invoking command in '/home/victoria_rotich/dev_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/victoria_rotich/dev_ws/src/my_bot/build/my_bot -- -j8 -l8
+[3.927s] Invoked command in '/home/victoria_rotich/dev_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/victoria_rotich/dev_ws/src/my_bot/build/my_bot -- -j8 -l8
+[3.936s] Invoking command in '/home/victoria_rotich/dev_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/victoria_rotich/dev_ws/src/my_bot/build/my_bot
+[3.942s] -- Install configuration: ""
+[3.942s] -- Execute custom install script
+[3.943s] -- Symlinking: /home/victoria_rotich/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/empty.yaml
+[3.950s] -- Symlinking: /home/victoria_rotich/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[3.956s] -- Symlinking: /home/victoria_rotich/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[3.962s] -- Symlinking: /home/victoria_rotich/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+[3.969s] -- Symlinking: /home/victoria_rotich/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[3.975s] -- Symlinking: /home/victoria_rotich/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
+[3.982s] -- Symlinking: /home/victoria_rotich/dev_ws/src/my_bot/install/my_bot/share/my_bot/worlds/empty.world
+[3.989s] -- Symlinking: /home/victoria_rotich/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[3.995s] -- Symlinking: /home/victoria_rotich/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[4.002s] -- Symlinking: /home/victoria_rotich/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[4.008s] -- Symlinking: /home/victoria_rotich/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[4.015s] -- Symlinking: /home/victoria_rotich/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.sh
+[4.021s] -- Symlinking: /home/victoria_rotich/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.dsv
+[4.027s] -- Symlinking: /home/victoria_rotich/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.bash
+[4.033s] -- Symlinking: /home/victoria_rotich/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.sh
+[4.040s] -- Symlinking: /home/victoria_rotich/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.zsh
+[4.046s] -- Symlinking: /home/victoria_rotich/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.dsv
+[4.053s] -- Symlinking: /home/victoria_rotich/dev_ws/src/my_bot/install/my_bot/share/my_bot/package.dsv
+[4.059s] -- Symlinking: /home/victoria_rotich/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[4.066s] -- Symlinking: /home/victoria_rotich/dev_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[4.072s] -- Symlinking: /home/victoria_rotich/dev_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[4.078s] -- Symlinking: /home/victoria_rotich/dev_ws/src/my_bot/install/my_bot/share/my_bot/package.xml
+[4.086s] Invoked command in '/home/victoria_rotich/dev_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/victoria_rotich/dev_ws/src/my_bot/build/my_bot
